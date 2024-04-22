@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*************************** Home ********************************/
+.announce {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.08px;
+  text-align: left;
+}
+
+.banner-text {
+  font-size: 69px;
+  font-weight: 500;
+  line-height: 83.51px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.help {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.card-text {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.brand-banner {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+}
+
+.brand-banner-head {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: -0em;
+}
+
+.switch-buttons p {
+  font-size: 14.1px;
+  font-weight: 500;
+  line-height: 15.93px;
+}
+.testimonies {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .announce {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.04px;
+    text-align: left;
+  }
+
+  .banner-text {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .help {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .card-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27.25px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .brand-banner {
+    font-size: 20.85px;
+    font-weight: 500;
+    line-height: 33.6px;
+    letter-spacing: -0.04em;
+  }
+
+  .brand-banner-head {
+    font-size: 16.22px;
+    font-weight: 500;
+    line-height: 31.57px;
+    letter-spacing: -0.04em;
+  }
+
+  .switch-buttons p {
+    font-size: 8.25px;
+    font-weight: 500;
+    line-height: 9.32px;
+  }
+
+  .testimonies {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+}
+
+/*********************** about *************************/
+.about-head {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.about-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.values-head {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.values {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.values-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-top: 20px;
+}
+.team-big {
+  height: 700px;
+}
+
+.team-noraml {
+  height: 330px;
+}
+
+@media screen and (max-width: 900px) {
+  .about-head {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .about-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .values-head {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .values {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .values-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 0px;
+  }
+
+  .team-big {
+    height: 330px;
+  }
+
+  .team-noraml {
+    height: 330px;
+  }
+}
+
+/*********************** Contact *********************/
+
+/*********************** Projects *********************/
+.project-head {
+  font-size: 69px;
+  font-weight: 500;
+  line-height: 83.51px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+@media screen and (max-width: 900px) {
+  .project-head {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+}
+
+/*********************** Projects *********************/
+.privacy-head {
+  font-size: 69px;
+  font-weight: 500;
+  line-height: 83.51px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.privacy-sub {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.privacy-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .privacy-head {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .privacy-sub {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .privacy-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+}
+
+/* footer */
